@@ -8,7 +8,7 @@ import Contact from './Components/Navigation/Contact'
 import Qualifications from './Components/Navigation/Qualifications'
 function App() {
   return (
-    <div className='bg-black w-screen h-screen'>
+    <div className='bg-black'>
 
       <BrowserRouter>
         <NavBar/>
