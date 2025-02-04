@@ -10,7 +10,7 @@ function Home() {
         <p>(React Js, Tailwind Css)</p>
       </div>
       <div>
-        <img src='src\Images\myimg.png'></img>
+        <img src='src/Images/myimg.png'></img>
       </div>
     </div>
   )
