@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import Projects from './Projects';
 
 
+
 function Home() {
   const text = "Hi I am Satyam Bheel...."; // Your text to type
   const [displayText, setDisplayText] = useState("");
@@ -20,6 +21,7 @@ function Home() {
 
   return (
     <>
+    <div className='h-screen w-screen'>
     <div className="h-screen w-screen text-white flex flex-row justify-around relative top-12">
       <div className="h-52 w-2xl">
         {/* Typing Effect in p tag */}
@@ -45,7 +47,18 @@ function Home() {
       </style>
     </div>
 
-    <Projects/>
+    <div className='h-screen w-screen'>
+
+      <Projects/>
+
+    </div>
+
+    
+
+
+    </div>
+    
+    
 
     </>
 
